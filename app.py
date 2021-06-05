@@ -14,17 +14,17 @@ def about():
 
 
 @app.route('/blog')
-def homepage():
+def blog():
     return render_template('blog.html')
 
 
 @app.route('/contact')
-def homepage():
+def Contact():
     return render_template('contact.html')
 
 
 @app.route('/methods')
-def homepage():
+def methods():
     return render_template('methods.html')
 if __name__ == "__main__":
     app.run(debug=True)
