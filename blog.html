@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="with=device-width,initial-scale=1.0">
+        <title>recycle website design</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="methods.html">METHODS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>BLOG</h1>
+        
+
+    </section>
+    <!--------blog-------->
+    <section class="blog">
+        <div class="row">
+            <div >
+                <h4>Why recycling is important</h4>
+                <img src="https://www.forgerecycling.co.uk/blog/wp-content/uploads/2021/03/bulldozer-landfill-1024x683.jpg">
+                <p>Recycling conserves the earth’s resources<br>
+                    Recycling reduces environmental harm<br>
+                    Recycling reduces energy use
+
+                </p>
+                
+            </div>
+            <div >
+                <h4>What Happens to the Cardboard and Paper You Recycle</h4>
+                <img src="https://recyclenation.com/wp-content/uploads/2013/05/recycling-cardboard.jpg">
+                <p>It’s easy to recycle cardboard and paper, but people don’t always understand the process. When you recycle paper, what happens to it? Tossing empty boxes, cereal boxes, greeting cards, egg cartons, mail, and printer paper into a curbside bin takes little time. Bills that have confidential information are often shredded first by the resident.</p>
+            </div>
+            <div >
+                <h4>Five ways the zero-waste movement is<br> overcoming the COVID-19 pandemic</h4>
+                <img src="https://www.forgerecycling.co.uk/blog/wp-content/uploads/2020/09/reusable-containers-825x510.jpg">
+                <p>1.Reusable containers have been deemed safe<br>
+                2.Zero-waste shops are increasing in popularity<br>
+                3.Supermarket chains are doing their part<br>4.People are favouring reusable PPE<br>
+                5.Sustainable shopping
+                </p>
+            </div>
+            <div>
+                <h4>Why food waste should be prevented</h4>
+                <img src="https://www.forgerecycling.co.uk/blog/wp-content/uploads/2020/09/preventing-food-waste-825x510.jpg">
+                <p>When you throw food in the bin, you may not realise the detrimental effect it can have on the environment.</p>
+            </div>
+        </div>
+
+
+    </section>
+    <section>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="form_angular.php" class="comment-form">
+                <input type="text" name="name" placeholder="Enter Name">
+                <input type="email" name="email" placeholder="Enter email">
+                <textarea rows='5' name="comment" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">Post comment</button>
+                
+                
+            </form>
+        </div>
+        </section>
+
+<!---javaScript for Menu----->
+<script>
+    var navLinks=document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+</body>
+</html>
