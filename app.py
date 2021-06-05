@@ -8,24 +8,24 @@ def homepage():
     return render_template('index.html')
 
 
-@app.route('/priya')
-def priya():
-    return "wrgrgr"
+@app.route('/about')
+def about():
+    return render_template("about.html")
 
 
-# @app.route('/')
-# def homepage():
-#     return render_template('index.html')
+@app.route('/blog')
+def homepage():
+    return render_template('blog.html')
 
 
-# @app.route('/')
-# def homepage():
-#     return render_template('index.html')
+@app.route('/contact')
+def homepage():
+    return render_template('contact.html')
 
 
-# @app.route('/')
-# def homepage():
-#     return render_template('index.html')
+@app.route('/methods')
+def homepage():
+    return render_template('methods.html')
 if __name__ == "__main__":
     app.run(debug=True)
 
