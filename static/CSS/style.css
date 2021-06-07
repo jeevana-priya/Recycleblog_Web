@@ -207,7 +207,7 @@ h1{
     font-weight:600 ;
 }
 p{
-    color:rgb(155, 63, 46);
+    color:rgb(117, 54, 17);
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -266,35 +266,7 @@ h1{
     display:flex ;
     justify-content: space-between;
 }
-.comment-box{
-    flex-basis: 48%;
-    margin-bottom: 30px;
-}
-.comment-box div{
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-}
-.comment-box div .fa{
-    font-size: 28px;
-    color:#f44333;
-    margin: 10px;
-    margin-right: 30px;
-}
-.comment-box div h3{
-    font-size: 20px;
-    color:#555;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-.comment-box input, .comment-box textarea{
-    width:100%;
-    padding: auto;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid rgb(3, 1, 10);
-    box-sizing: content-box;
-}
+
 input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
@@ -310,36 +282,31 @@ input[type=text], select, textarea{
     display: inline-block;
   }
   
-  /* Style the submit button */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #B22222;
     color: white;
-    padding: 12px 20px;
+    padding: auto;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
-    float: right;
+    float: left;
   }
   
-  /* Style the container */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  input[type=submit]:hover {
+    background-color: #B22222;
   }
   
-  /* Floating column for labels: 25% width */
+  
   .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
   }
   
-  /* Floating column for inputs: 75% width */
   .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+    float: center;
+    width: 50%;
+    margin-top: 3px;
   }
   
   /* Clear floats after the columns */
@@ -356,6 +323,7 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
   }
+
 /*------contact----*/
 .contact-us{
     width: 80%;
