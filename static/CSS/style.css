@@ -266,6 +266,21 @@ h1{
     display:flex ;
     justify-content: space-between;
 }
+.comment-box{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.comment-box div{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.comment-box div h3{
+    font-size: 20px;
+    color:#555;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
 
 /*------contact----*/
 .contact-us{
