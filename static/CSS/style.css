@@ -185,7 +185,7 @@ p{
     padding:18px 0;
 
 }
-/*-------------------about u spage-----------*/
+/*-------------------about us page-----------*/
 .sub-header{
     height:80vh;
     width:100%;
@@ -270,7 +270,7 @@ h1{
 input[type=text], select, textarea{
     width: 100%;
     padding: auto;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(10, 3, 3);
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
@@ -283,7 +283,7 @@ input[type=text], select, textarea{
   }
   
   input[type=submit] {
-    background-color: #B22222;
+    background-color: #22b29f;
     color: white;
     padding: auto;
     border: none;
@@ -293,7 +293,7 @@ input[type=text], select, textarea{
   }
   
   input[type=submit]:hover {
-    background-color: #B22222;
+    background-color: #22b2b2;
   }
   
   
